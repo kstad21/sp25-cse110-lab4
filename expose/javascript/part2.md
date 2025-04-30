@@ -14,14 +14,21 @@
     c) calling greeting function: `student.greeting();`
     d) accessing name of favorite teacher: `student['Favorite Teacher'].name`
     e) access index zero of courseLoad: `student.courseLoad[0]`
-13.
-a) `'3' + 2` -> `32` because `3` is a string so `2` just gets concatenated to `3`.
+13. a) `'3' + 2` -> `32` because `3` is a string so `2` just gets concatenated to `3`.
+
 b) `'3' - 2` -> `1` because the minus foces both elements to be #s. 
+
 c) `3 + null` -> `3` because `null` will be converted to 0. 
+
 d) `'3' + null` -> `3null` because the plus operator, unlike the minus, leads to concatenation, which causes `null` to be changed to `'null'`. 
+
 e) `true + 3` -> `4` because `true` gets converted to 1. 
+
 f) `false + null` -> `0` because both `false` and `null` get converted to 0!
+
 g) `'3' + undefined` -> `3undefined` because (similarly to part d) `undefined` is changed to `'undefined'` given the plus operator and the string type of `'3'`.
+
 h) `'3' - undefined` -> `Not a Number (NaN)` because `undefined` cannot be changed into a number even though the minus operator demands it.
+
 15. 
 
