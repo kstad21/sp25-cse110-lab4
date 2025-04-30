@@ -43,3 +43,5 @@
     f) `true === Boolean(2)` -> `true`, because any `Boolean(nonzero #)` -> `true` and `true == true`.
 15. The `==` operator is loose equality and the `===` operator is strict equality. `==` allows for type coercion but `===` checks type as part of the equality.
 16. see `part2-question16.js`
+17. The result will be `[2, 4, 6]`. This is because the function `doSomething` is passed in as an argument to `modifyArray`. `doSomething` takes a number and returns it multipled by 2. So in `modifyArray`, we loop through `array` and apply `doSomething` to each number in the array (in `modifyArray`, the function parameter is called `callback`). We end up with the original array passed in, with each element multiplied by 2.
+18. see `part2-question18.js`
