@@ -41,4 +41,5 @@
     e) `true == 2` -> `false`. `true` (like we saw in #13) gets changed to `1` and `1 != 2`. 
 
     f) `true === Boolean(2)` -> `true`, because any `Boolean(nonzero #)` -> `true` and `true == true`.
-
+15. The `==` operator is loose equality and the `===` operator is strict equality. `==` allows for type coercion but `===` checks type as part of the equality.
+16. see `part2-question16.js`
